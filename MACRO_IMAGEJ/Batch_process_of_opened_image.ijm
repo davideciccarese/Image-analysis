@@ -2,7 +2,7 @@ macro "Batch_process_of_opened_image.openImg"{
 	// Macro in ImageJ that process in batch mode several images
 	// once you open the images you can run this code
 	// it will ask the source directory
-	// it will e created a new folder where you can save your data or image processed
+	// it will create a new folder where you the save data or image processed will be saved
 	// then one by one your images will be processesed. 
 	
 dir1 = getDirectory("Choose Source Directory "); 
